@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/test-amo-crm/static/css/main.69e728d0.css",
+    "main.js": "/test-amo-crm/static/js/main.dee8c14a.js",
+    "static/js/787.f9fa8ad5.chunk.js": "/test-amo-crm/static/js/787.f9fa8ad5.chunk.js",
+    "static/media/logo_welbex.svg": "/test-amo-crm/static/media/logo_welbex.b868aa258aeef44f83767fa10208a23c.svg",
+    "static/media/whatsApp_logo.svg": "/test-amo-crm/static/media/whatsApp_logo.c3d7a933a8355b23bc435ff74d3849c1.svg",
+    "static/media/viber_logo.svg": "/test-amo-crm/static/media/viber_logo.cf9c56ecdadaadbb83004223aedc739c.svg",
+    "static/media/img_logo.svg": "/test-amo-crm/static/media/img_logo.7aba6639bf72f2b281912eb94567548f.svg",
+    "index.html": "/test-amo-crm/index.html",
+    "static/media/telegram_logo.svg": "/test-amo-crm/static/media/telegram_logo.ec28ad3ae01fc187af4c6626094c876b.svg",
+    "static/media/lineMobileVersion.svg": "/test-amo-crm/static/media/lineMobileVersion.e54c78534812ceaf5439f1313ba9da98.svg",
+    "main.69e728d0.css.map": "/test-amo-crm/static/css/main.69e728d0.css.map",
+    "main.dee8c14a.js.map": "/test-amo-crm/static/js/main.dee8c14a.js.map",
+    "787.f9fa8ad5.chunk.js.map": "/test-amo-crm/static/js/787.f9fa8ad5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69e728d0.css",
+    "static/js/main.dee8c14a.js"
+  ]
+}
