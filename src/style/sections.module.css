@@ -1,0 +1,153 @@
+.sectionWrapper {
+    margin: 94px 0 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+
+h1 span {
+    font-weight: 900;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.leftSection p {
+    font-weight: 400;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.rightSection {
+    text-align: right;
+    width: 400px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+h2 span {
+    font-weight: 700;
+}
+
+.firstSpanRightSect {
+    background: linear-gradient(92deg, #ff723f 27.14%, #FF3F78 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.secondSpanRightSect {
+    background: linear-gradient(92deg, #FCB045 27.14%, #ff723f 121.36%), #E4E5EA;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.tableRightSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 25px 0;
+    gap: 25px;
+}
+
+h3 {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.presentsLi {
+    width: 162px;
+    height: 67px;
+}
+
+.presentsLi span {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+
+.btn {
+    width: 262px;
+    height: 61px;
+    background: #4077F3;
+    font-size: 16px;
+    border: none;
+    color: #E4E5EA;
+    margin: 61px 2px 61px;
+    cursor: pointer;
+}
+
+
+@media (max-width: 800px) {
+    .sectionWrapper {
+        padding: 40px 0 59px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 50px;
+        width: 365px;
+        margin: 0 auto;
+    }
+
+    .lowerSection {
+        font-size: 18px;
+    }
+
+    .tableLowerSection {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 70px;
+        margin-top: 20px;
+    }
+
+    .tableLowerSection li {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .sectionWrapper{
+        font-family: 'Inter', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+    .upperSection h1 {
+        font-weight: 400;
+        font-size: 36px;
+    }
+
+    .lowerSection h2 {
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

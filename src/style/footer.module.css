@@ -1,0 +1,146 @@
+.footerWrapper {
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+}
+
+.footerWrapper li {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+
+.footerWrapper a {
+    margin: 0 10px 10px 0;
+}
+
+.footerContacts {
+    text-align: right;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.contactsWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.menuBlocks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 180px;
+    gap: 8px;
+}
+
+.menuBlocks a {
+    margin-right: 50px
+}
+
+.telegramContainer {
+    margin-top: 10px;
+    display: flex;
+    justify-content: right;
+    gap: 14px;
+}
+
+.securitySign {
+    text-align: right;
+    margin: 33px 0 20px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.securitySign span {
+    border-bottom: 1px solid #E4E5EA;
+}
+
+@media (max-width: 925px) {
+    .menuBlocks {
+        height: 200px;
+    }
+
+    .contactsWrapper {
+        align-items: end;
+    }
+
+    .addressCompany {
+        width: 180px;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .mobileWrapper,
+    .baseWrapper,
+    .mobileAboutUs,
+    .mobileMenu,
+    .mobileContacts {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .mobileWrapper {
+        justify-content: space-between;
+        align-items: center;
+        gap: 56px;
+    }
+
+    .baseWrapper {
+        gap: 30px
+    }
+
+    .contactsWrapper {
+        align-items: start;
+        gap: 15px;
+    }
+
+    .mobileMenu {
+        flex-wrap: wrap;
+    }
+
+    .menuBlocks {
+        height: 180px;
+        width: 170px;
+    }
+
+    .mobileContacts {
+        margin-bottom: 10px;
+    }
+
+    .mobileTelegramContainer {
+        display: flex;
+        gap: 15px;
+    }
+
+    .securitySign {
+        text-align: left;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 500px) {
+    .mobileWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        gap: 56px;
+    }
+}
+
